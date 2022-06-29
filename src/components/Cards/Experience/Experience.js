@@ -5,7 +5,7 @@ import Styles from "./Experience.module.css"
 
 function Experience() {
     return(
-        <section>
+        <section className={Styles.container}>
             <Title title="Experiência"/>
 
             <h3 className={Styles.text}>Front End Developer</h3>

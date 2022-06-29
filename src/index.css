@@ -12,11 +12,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 #root {
   width: 50%;
-  margin: 0em 4em;
 }
 
 a {
@@ -29,9 +29,3 @@ a {
   }
 }
 
-@media(max-width: 466px) {
-  #root {
-    width: 100%;
-  }
-
-}

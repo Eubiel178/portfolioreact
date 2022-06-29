@@ -24,7 +24,7 @@
 }
 
 @media(max-width: 466px) {
-    .navItem {
-        font-size: 14px;
+    .navItemLink {
+        font-size: 12px;
     }
 }
