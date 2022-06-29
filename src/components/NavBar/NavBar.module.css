@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1.5em 0.5em 1.5em 0.5em;
+    border-top: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.navItem {
+    color: blue;
+    transition-duration: 0.5s;
+    padding-right: 0.3em;
+    list-style: none;
+    padding: 0.3em;
+}
+
+.navItem:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+@media(max-width: 466px) {
+    .navItem {
+        font-size: 14px;
+    }
+}

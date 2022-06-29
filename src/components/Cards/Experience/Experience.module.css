@@ -1,0 +1,23 @@
+.subtitle {
+    margin: 2em;
+}
+
+.text {
+    font-size: 19px;
+    width: 80%;
+    margin: 1em 0em 0em 2em;
+}
+
+.listItem {
+    margin-bottom: 1em;
+}
+
+@media(max-width: 466px) {
+    .listItem {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+}

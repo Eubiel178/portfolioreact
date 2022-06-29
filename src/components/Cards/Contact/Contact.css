@@ -1,0 +1,64 @@
+.flexContainer {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    height: 100%;
+}
+
+.photoContainer {
+    padding: 1em;
+}
+
+.photo {
+    display: block;
+    width: 65%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
+}
+
+.sectionContainer {
+    padding-left: 2em;
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 0.4em;
+}
+
+.paragraph {
+    font-size: 19px;
+    margin-bottom: 1em;
+}
+
+.emphasis {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    padding: 0.2em;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.iconWhats {
+    font-size: 1.5em;
+    color: green;
+    margin: 1em 0em;
+}
+
+.iconGmail {
+    font-size: 1.5em;
+    color: red;
+    margin-bottom: 1em;
+}
+
+.iconGitHub {
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.iconLinkedin {
+    font-size: 1.5em;
+    color: blue;
+    margin-bottom: 1em;
+}

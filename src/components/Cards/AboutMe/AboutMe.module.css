@@ -1,0 +1,11 @@
+.paragraph {
+    font-size: 19px;
+    margin: 2em 0em 2em 1.8em;
+    width: 80%;
+}
+
+@media(max-width: 466px) {
+    .paragraph {
+        font-size: 16px;
+    }
+}
