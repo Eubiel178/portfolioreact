@@ -6,15 +6,18 @@
     border-top: 1px solid rgba(0, 0, 0, 0.164);
 }
 
-.navItem {
+.li {
+    list-style: none;
+}
+
+.navItemLink {
     color: blue;
     transition-duration: 0.5s;
     padding-right: 0.3em;
-    list-style: none;
     padding: 0.3em;
 }
 
-.navItem:hover {
+.navItemLink:hover {
     background-color: black;
     color: white;
     border-radius: 5px;
