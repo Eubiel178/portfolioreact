@@ -6,7 +6,7 @@ import { RiMapPin4Line } from "react-icons/ri"
 
 function Experience() {
     return(
-        <main className={Styles.container}>
+        <>
             <header>
                 <Title title="Experiência"/>
             </header>
@@ -36,7 +36,7 @@ function Experience() {
                     </li>
                 </UlList>
             </section>
-        </main>
+        </>
     )
 }
 
