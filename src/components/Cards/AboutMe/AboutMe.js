@@ -3,7 +3,7 @@ import Title from "../Title/Title"
 
 function AboutMe() {
     return(
-        <main>
+        <>
             <header>
                 <Title title="Sobre Mim"/>
             </header>
@@ -13,7 +13,7 @@ function AboutMe() {
                     Me chamo Gabriel e sou apaixonado por tecnologia atualmante estou estudando HTML5, CSS e JavaScript. Sou um tipo de pessoa que esta sempre em busca de aprender coisas novas sobre a área que escolhi, no caso Front-end. Meu objetivo profissional é adquiri experiência para poder me tornar um desenvolvedor web melhor.
                 </p>
             </section>
-        </main>
+        </>
     )
 }
 
