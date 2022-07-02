@@ -7,7 +7,7 @@ import { AiOutlineWhatsApp } from "react-icons/ai"
 
 function Contact() {
     return (
-        <main>
+        <>
             <section className="flexContainer">
                 <div>
                     <figure className="photoContainer">
@@ -51,7 +51,7 @@ function Contact() {
                     </p>
                 </div>    
             </section>
-        </main>
+        </>
     )
 }
 
