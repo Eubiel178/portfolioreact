@@ -5,7 +5,7 @@ import Styles from "./Formation.module.css"
 
 function Formation() {
     return (
-        <main>
+        <>
             <header>
                 <Title title="Formação"/>
             </header>
@@ -19,7 +19,7 @@ function Formation() {
                     <li className={Styles.liItem}>React</li>
                 </UlList>
             </section>
-        </main>
+        </>
     )
 }
 
