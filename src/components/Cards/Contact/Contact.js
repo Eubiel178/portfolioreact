@@ -42,7 +42,7 @@ function Contact() {
                 </div>
             </section>
 
-            <section className="sectionContainer">
+            <section className="secondSection">
                 <div>
                     <h1 className="title">Gabriel Silva</h1>
 
