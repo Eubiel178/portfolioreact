@@ -9,13 +9,13 @@ function Contact() {
     return (
         <main>
             <section className="flexContainer">
-                <header>
+                <div>
                     <figure className="photoContainer">
                         <img className="photo" src="./photo.jpg"/>
                     </figure>
-                </header>
+                </div>
 
-                <main>
+                <div>
                     <p>
                         <Link href="https://api.whatsapp.com/send?phone=555571997398005">
                             <AiOutlineWhatsApp className="iconWhats"/>
@@ -39,7 +39,7 @@ function Contact() {
                             <FaLinkedin className="iconLinkedin"/>
                         </Link>
                     </p>
-                </main>
+                </div>
             </section>
 
             <section className="sectionContainer">
