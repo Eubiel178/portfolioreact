@@ -5,17 +5,21 @@ import Styles from "./Formation.module.css"
 
 function Formation() {
     return (
-        <section>
-            <Title title="Formação"/>
+        <main>
+            <header>
+                <Title title="Formação"/>
+            </header>
 
-            <UlList>
-                <li className={Styles.liItem}>HTML5</li>
-                <li className={Styles.liItem}>CSS</li>
-                <li className={Styles.liItem}>Lógica de Programação</li>
-                <li className={Styles.liItem}>JavaScript</li>
-                <li className={Styles.liItem}>React</li>
-            </UlList>
-        </section>
+            <section>
+                <UlList>
+                    <li className={Styles.liItem}>HTML5</li>
+                    <li className={Styles.liItem}>CSS</li>
+                    <li className={Styles.liItem}>Lógica de Programação</li>
+                    <li className={Styles.liItem}>JavaScript</li>
+                    <li className={Styles.liItem}>React</li>
+                </UlList>
+            </section>
+        </main>
     )
 }
 

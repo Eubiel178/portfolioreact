@@ -7,13 +7,15 @@ import { AiOutlineWhatsApp } from "react-icons/ai"
 
 function Contact() {
     return (
-        <section className="container">
-            <main className="flexContainer">
-                <figure className="photoContainer">
-                    <img className="photo" src="./photo.jpg"/>
-                </figure>
+        <main>
+            <section className="flexContainer">
+                <header>
+                    <figure className="photoContainer">
+                        <img className="photo" src="./photo.jpg"/>
+                    </figure>
+                </header>
 
-                <section>
+                <main>
                     <p>
                         <Link href="https://api.whatsapp.com/send?phone=555571997398005">
                             <AiOutlineWhatsApp className="iconWhats"/>
@@ -21,7 +23,7 @@ function Contact() {
                     </p>
 
                     <p >
-                        <Link>
+                        <Link href="mailto:dev123gabriel@gmail.com">
                             <RiMailAddLine className="iconGmail"/>
                         </Link>
                     </p>
@@ -37,19 +39,19 @@ function Contact() {
                             <FaLinkedin className="iconLinkedin"/>
                         </Link>
                     </p>
-                </section>
-            </main>
+                </main>
+            </section>
 
             <section className="sectionContainer">
-                <section>
+                <div>
                     <h1 className="title">Gabriel Silva</h1>
 
                     <p className="paragraph">
                         <span className="emphasis">Dev Front End</span>
                     </p>
-                </section>    
+                </div>    
             </section>
-        </section>
+        </main>
     )
 }
 
