@@ -18,7 +18,7 @@ function Contact() {
 
                 <div>
                     <p>
-                        <Link href="">
+                        <Link href="https://www.instagram.com/eu_biel178/">
                             <BsInstagram className="iconInstagram"/>
                         </Link>
                     </p>
