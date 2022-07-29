@@ -37,16 +37,10 @@
     border-radius: 5px;
 }
 
-.iconInstagram {
-    font-size: 1.5em;
-    color: #C21B73;
-    margin: 1em 0em;
-}
-
 .iconWhats {
     font-size: 1.5em;
     color: green;
-    margin-bottom: 1em;
+    margin: 1em 0em;
 }
 
 .iconGmail {
