@@ -4,7 +4,6 @@ import "./Contact.css"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { RiMailAddLine } from "react-icons/ri"
 import { AiOutlineWhatsApp } from "react-icons/ai"
-import { BsInstagram } from "react-icons/bs";
 
 function Contact() {
     return (
@@ -16,11 +15,6 @@ function Contact() {
                     </figure>
 
                 <div className="iconsContainer">
-                    <p>
-                        <Link href="https://www.instagram.com/eu_biel178/">
-                            <BsInstagram className="iconInstagram"/>
-                        </Link>
-                    </p>
         
                     <p>
                         <Link href="https://api.whatsapp.com/send?phone=555571997398005">
