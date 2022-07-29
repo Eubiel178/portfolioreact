@@ -10,11 +10,10 @@ function Contact() {
     return (
         <>
             <section className="flexContainer">
-                <div>
+        
                     <figure className="photoContainer">
                         <img className="photo" src="./photo.jpg"/>
                     </figure>
-                </div>
 
                 <div>
                     <p>
