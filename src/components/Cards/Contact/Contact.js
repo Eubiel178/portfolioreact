@@ -15,7 +15,7 @@ function Contact() {
                         <img className="photo" src="./photo.jpg"/>
                     </figure>
 
-                <div>
+                <div className="iconsContainer">
                     <p>
                         <Link href="https://www.instagram.com/eu_biel178/">
                             <BsInstagram className="iconInstagram"/>
