@@ -2,15 +2,17 @@
     display: flex;
     padding: 1em;
     align-items: center;
+    justify-content: space-between;
 }
 
 .photoContainer {
-    padding: 1em;
+    padding-left: 1em;
+    max-width: 65%;
 }
 
 .photo {
     display: block;
-    width: 65%;
+    max-width: 100%;
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
 }
